@@ -44,7 +44,6 @@ class GithubAdapter : ListAdapter<GithubUser, GithubAdapter.UserViewHolder>(Diff
                 Glide.with(imageView)
                     .load(user.avatar_url)
                     .into(imageView)
-
                 textLogin.text = user.login
             }
         }
